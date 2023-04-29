@@ -43,7 +43,7 @@ namespace AdminApi.Controllers
 
         [Route("Update")]
         [HttpPut]
-        public ApiResult<string> Update([FromForm] ProductUpdateRequest request)
+        public ApiResult<string> Update([FromBody] ProductUpdateRequest request)
         {
             try
             {
@@ -58,7 +58,7 @@ namespace AdminApi.Controllers
 
         [Route("Delete")]
         [HttpDelete]
-        public ApiResult<string> Update([FromQuery] int id)
+        public ApiResult<string> Delete([FromQuery] int id)
         {
             try
             {
