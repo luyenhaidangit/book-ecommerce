@@ -1,4 +1,5 @@
 using BUS;
+using BUS.System;
 using DAO.Repositories;
 using Demo.Data.Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -84,6 +85,8 @@ builder.Services.AddTransient<IProductCategoryRepository, ProductCategorytReposi
 builder.Services.AddTransient<IProductCategoryService, ProductCategoryService>();
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
 builder.Services.AddTransient<IProductService, ProductService>();
+builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<IUserService, UserService>();
 //builder.Services.AddTransient<ISlideService, SlideService>();
 //builder.Services.AddTransient<ISlideRepository, SlideRepository>();
 //builder.Services.AddTransient<IUserRepository, UserRepository>();
