@@ -18,4 +18,8 @@
     <ProjectReference Include="..\DTO\DTO.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Upload\Image\Test\" />
+  </ItemGroup>
+
 </Project>

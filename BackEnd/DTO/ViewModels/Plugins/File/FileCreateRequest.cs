@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Thegioididong.Model.ViewModels.Plugins.File
+namespace DTO.ViewModels.Plugins.File
 {
     public class FormFileCreateRequest
     {
